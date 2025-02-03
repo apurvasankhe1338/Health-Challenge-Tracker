@@ -1,0 +1,49 @@
+# Fyle Health Challenge Tracker
+
+This project is part of the Front-End Developer Internship Assignment at Fyle and is deployed on Vercel.
+
+- **GitHub Repository:** [ Health Challenge Tracker](https://github.com/apurvasankhe1338/Health-challenge-tracker)
+- **Live Demo:** [Vercel Deployment](https://health-challenge-tracker-eight.vercel.app/)
+
+## Features
+- **Add Workouts:** Click the `+ Add Workout` button to open a modal and log your workout.
+- **Workout Progress Charts:** View workout trends using charts accessible via the `show_chart` icon in the left sidebar.
+- **Persistent Data:** Workouts are stored in local storage for seamless usage.
+- **Fully Functional:** Works flawlessly both locally and on Vercel.
+
+
+## Installation Guide
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/username/Health-challenge-tracker
+   ```
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd health-challenge-tracker
+   ```
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Run the Development Server:**
+   ```bash
+   ng serve
+   ```
+5. Open `http://localhost:4200/` in your browser to access the app.
+
+## Code Coverage
+To check the code coverage, run:
+```bash
+ng test --code-coverage
+```
+
+Unit tests are included for:
+- **Component:** `user-charts.component.ts`
+- **Service:** `update-workout.service.spec.ts`
+
+---
+
+The project meets all requirements, ensuring a smooth and reliable user experience.
+
